@@ -106,7 +106,7 @@ public class Entrada {
             "\n<mod>"+mod+"</mod>"+
             "\n<serie>"+serie+"</serie>"+
             "\n<nNF>"+nnf+"</nNF>"+
-            "\n<dEmi>20"+aamm.toString().substring(0, 2)+"-"+aamm.toString().substring(2, 4)+"</dEmi>"+
+            "\n<dEmi>"+aamm.toString().substring(0, 2)+"-"+aamm.toString().substring(2, 4)+"</dEmi>"+
             "\n<tpEmis>"+tpemis+"</tpEmis>"+
             "\n<cDV>"+cDV+"</cDV>"+
             "\n<CNPJ>"+cnpj_cpf+"</CNPJ>");
