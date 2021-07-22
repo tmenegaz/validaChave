@@ -36,37 +36,37 @@ public class Entrada {
     public void digitaCampos(){
         util();
         
-        // System.out.print("Digite o UF: ");
-        // String uf = sc.nextLine();
-        String uf = "43";
+        System.out.print("Digite o UF: ");
+        String uf = sc.nextLine();
+        // String uf = "43";
         
-        // System.out.print("Digite o aamm: ");
-        // String aamm = sc.nextLine();
-        String aamm = "2107";
+        System.out.print("Digite o aamm: ");
+        String aamm = sc.nextLine();
+        // String aamm = "2107";
         
-        // System.out.print("Digite o cnpj_cpf: ");
-        // String cnpj_cpf = sc.nextLine();
-        String cnpj_cpf = "88709621000190";
+        System.out.print("Digite o cnpj_cpf: ");
+        String cnpj_cpf = sc.nextLine();
+        // String cnpj_cpf = "88709621000190";
         
-        // System.out.print("Digite o mod: ");
-        // String mod = sc.nextLine();
-        String mod = "55";
+        System.out.print("Digite o mod: ");
+        String mod = sc.nextLine();
+        // String mod = "55";
         
-        // System.out.print("Digite o serie com 3 dígitos (manter zeros a esquerda): ");
-        // String serie = sc.nextLine();
-        String serie = "002";
+        System.out.print("Digite o serie com 3 dígitos (manter zeros a esquerda): ");
+        String serie = sc.nextLine();
+        // String serie = "002";
         
-        // System.out.print("Digite o nnf  com 9 dígitos (manter zeros a esquerda): ");
-        // String nnf = sc.nextLine();
-        String nnf = "000258959";
+        System.out.print("Digite o nnf  com 9 dígitos (manter zeros a esquerda): ");
+        String nnf = sc.nextLine();
+        // String nnf = "000258959";
         
-        // System.out.print("Digite o tpemis: ");
-        // String tpemis = sc.nextLine();
-        String tpemis = "1";
+        System.out.print("Digite o tpemis: ");
+        String tpemis = sc.nextLine();
+        // String tpemis = "1";
         
-        // System.out.print("Digite o cnf: ");
-        // String cnf = sc.nextLine();
-        String cnf = "71802232";
+        System.out.print("Digite o cnf: ");
+        String cnf = sc.nextLine();
+        // String cnf = "71802232";
         
         sb.append(uf+aamm+cnpj_cpf+mod+serie+nnf+tpemis+cnf);
         for (int i = 0; i < sb.toString().length(); i++){
